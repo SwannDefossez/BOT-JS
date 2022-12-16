@@ -5,10 +5,10 @@ const Twit = require("twit");
 
 const T = new Twit({
   // oublie pas de remplacer les keys
-  consumer_key: "Og5pBc0RgQ3OdIN2LJ8OO26bn",
-  consumer_secret: "ySLoLetB0E44G8CE0789vQvNtXbdqvJbwJtSmuXXOIJJ8IhsjA",
-  access_token: "1156690622201380865-nnUQQAurYW4p6B8G57OiBFya4RWJ8Q",
-  access_token_secret: "MmWNYqrvUMMewVwhscAbNQvnOGlh1qjtOc0YqwlZVDdVU",
+  consumer_key: "GDFGDFGDFGDFG",
+  consumer_secret: "DFGDFGDFGDFGDFG",
+  access_token: "DFGDFGDFGDFGDFG",
+  access_token_secret: "DFGDFGDFGDFG",
 });
 
 client.on("messageCreate", (message) => {
@@ -38,11 +38,7 @@ client.on("messageCreate", (message) => {
   }
 });
 
-client.login(
-  // Oublie pas de remplacer le token discord du bot
-  "MTA1MzI3MzkxNDI3NDQ4NDI0NA.GI3YPf.9nD6UHT-S7jM1E1LXEzVIcfeY8JpM7tZLEnfzQ"
-);
-
+client.login("DISCORDTOKEN");
 
 // Fonction pour avoir l'id d'un utilisateur --> !id TwitterUserName
 // client.on("messageCreate", (message) => {
